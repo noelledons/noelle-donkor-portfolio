@@ -1,7 +1,6 @@
 import React from "react";
 
 import heroImage2 from "../../../assets/hero/heroImage2.png"
-// import headShot2 from "../../../assets/hero/headShot2.png";
 import styles from "./Hero.module.css"
 
 const Hero = () => {
@@ -10,9 +9,7 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Noelle</h1>
         <p className={styles.description}>
-         
-          I'm a full-stack Engineer with 4 years experience using React and NodeJS. Reach
-          out if you'd like to learn more!
+        A Full Stack Engineer with a passion for building modern, scalable web applications—from sleek frontends to robust backends. I love turning ideas into impactful digital experiences.
         </p>
         <a href="mailto:noelle321@hotmail.co.uk" className={styles.contactBtn}>Contact Me</a>
       </div>

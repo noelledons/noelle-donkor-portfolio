@@ -15,16 +15,20 @@
     "title": "Node",
     "imageSrc": "./assets/skills/node.png"
   },
+    {
+    "title": "TypeScript",
+    "imageSrc": "./assets/skills/typescript.png"
+  },
+    {
+    "title": "JavaScript",
+    "imageSrc": "./assets/skills/javascript.png"
+  },
   {
     "title": "GraphQL",
     "imageSrc": "./assets/skills/graphql.png"
   },
   {
-    "title": "MongoDB",
-    "imageSrc": "./assets/skills/mongodb.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "./assets/skills/figma.png"
+    "title": "Python",
+    "imageSrc": "./assets/skills/python.png"
   }
 ]
