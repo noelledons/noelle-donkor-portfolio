@@ -1,12 +1,37 @@
-# React + Vite
+# 🌐 My Developer Portfolio — [Live Demo](https://noelledons.github.io/react-portfolio-one/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my digital playground! This is my **personal portfolio site**, designed and built **React** and **Vite**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ About the Project
 
-## Expanding the ESLint configuration
+This portfolio is more than just a website—it's a **visual resume**, a **creative outlet**, and a **showcase of my skills** as a Full Stack Engineer. You'll find:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧠 A brief introduction about me
+- 💼 Projects I've built
+- 🛠️ Skills and tools I use
+- 📫 Easy ways to get in touch
+
+Whether you're a recruiter, collaborator, or just curious, this site is my way of saying *hello* in pixels and code.
+
+---
+
+## 🚀 Built With
+
+- ⚛️ [React](https://reactjs.org/)
+- ⚡ [Vite](https://vitejs.dev/)
+- 🎨 CSS Modules
+- 🔗 [GitHub Pages](https://pages.github.com/) for deployment
+
+---
+
+## 🛠️ Installation & Setup
+
+If you'd like to clone and run this project locally:
+
+```bash
+git clone https://github.com/ndon/react-portfolio-one.git
+cd react-portfolio-one
+npm install
+npm run dev
