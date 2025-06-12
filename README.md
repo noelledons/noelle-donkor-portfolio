@@ -1,4 +1,4 @@
-# 🌐 My Developer Portfolio — [Live Demo](https://noelledons.github.io/react-portfolio-one/)
+# 🌐 My Developer Portfolio — [Live Demo](https://noelledons.github.io/noelle-donkor-portfolio/)
 
 Welcome to my digital playground! This is my **personal portfolio site**, designed and built **React** and **Vite**.
 
