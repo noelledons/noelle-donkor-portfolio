@@ -1,25 +1,33 @@
 [
   {
-    "title": "Project A",
+    "title": "Client Project 1",
     "imageSrc": "assets/projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "GPU Browser Basecaller built using React and Node.js app to leverage Machine Learning APIs for device model inference.",
+    "skills": ["React", "Node", "Machine Learning"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
+    "title": "Client Project 2",
     "imageSrc": "assets/projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "description": "Built a React based Business & Financial Reporting Application with Python/ PostgreSQL backend integration",
+    "skills": ["React", "Python", "Node", "PostgreSQL"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project C",
+    "title": "Client Project 3",
     "imageSrc": "assets/projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "App modernisation from Django to React, using reusable components and Context API for state management.",
+    "skills": ["React", "Django", "Python"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Client Prohect 4",
+    "imageSrc": "assets/projects/project.png",
+    "description": " Delivered a fast, SEO-optimised site deployed on Vercal. GraphQL used for data fetching and Contenful used as the CMS",
+    "skills": ["NextJS", "GraphQL", "Contentdul"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }

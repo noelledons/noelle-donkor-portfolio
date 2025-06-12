@@ -14,14 +14,15 @@ const ProjectCard = ({
           return <li key={id} className={styles.skill}>{skill}</li>;
         })}
       </ul>
-      <div className={styles.links}>
+      {/* Add Source Links */}
+      {/* <div className={styles.links}>
         <a href={demo} className={styles.link}>
           Demo
         </a>
         <a href={source} className={styles.link}>
           Source
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
