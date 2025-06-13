@@ -31,7 +31,7 @@ Whether you're a recruiter, collaborator, or just curious, this site is my way o
 If you'd like to clone and run this project locally:
 
 ```bash
-git clone https://github.com/ndon/react-portfolio-one.git
-cd react-portfolio-one
+git clone https://github.com/noelledons/noelle-donkor-portfolio.git
+cd noelle-donkor-portfolio
 npm install
 npm run dev
