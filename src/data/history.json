@@ -5,7 +5,7 @@
     "startDate": "Sep 2024",
     "endDate": "Mar 2025",
     "experiences": ["Travel", "Personal Development"],
-    "imageSrc": "./assets/history/sabbatical.png"
+    "imageSrc": "/noelle-donkor-portfolio/assets/history/sabbatical.png"
   },
   {
     "role": "Software Engineer",
@@ -13,7 +13,7 @@
     "startDate": "May 2021",
     "endDate": "Sep 2024",
     "experiences": ["Experience 1", "Experience 2"],
-    "imageSrc": "./assets/history/and-digital.png"
+    "imageSrc": "/noelle-donkor-portfolio/assets/history/sabbatical.png"
   },
   {
     "role": "Business Intelligence Executive",
@@ -21,7 +21,7 @@
     "startDate": "Oct 2019",
     "endDate": "Dec 2020",
     "experiences": ["Experience 1", "Experience 2"],
-    "imageSrc": "./assets/history/havas-media.png"
+    "imageSrc": "/noelle-donkor-portfolio/assets/history/havas-media.png"
   },
   
    {
@@ -30,6 +30,6 @@
     "startDate": "Jun 2017",
     "endDate": "Jun 2018",
     "experiences": ["Experience 1", "Experience 2"],
-    "imageSrc": "./assets/history/nomura.png"
+    "imageSrc": "/noelle-donkor-portfolio/assets/history/nomura.png"
   }
 ]
