@@ -29,7 +29,7 @@ const projectsData = [
     "source": "https://www.github.com"
   },
   {
-    "title": "Client Prohect 4",
+    "title": "Client Project 4",
     "imageSrc": projectImage,
     "description": " Delivered a fast, SEO-optimised site deployed on Vercal. GraphQL used for data fetching and Contenful used as the CMS",
     "skills": ["NextJS", "GraphQL", "Contentdul"],
