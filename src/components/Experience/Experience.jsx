@@ -1,43 +1,87 @@
 import styles from "./Experience.module.css"
-// import skills from "../../data/skills.json";
-import history from "../../data/history.json";
+import html from "../../assets/skills/html.png"
+import css from "../../assets/skills/css.png"
+import react from "../../assets/skills/react.png"
+import node from "../../assets/skills/node.png"
+import typescript from "../../assets/skills/typescript.png"
+import javascript from "../../assets/skills/javascript.png"
+import graphql from "../../assets/skills/graphql.png"
+import python from "../../assets/skills/python.png"
+import sabbatical from "../../assets/history/sabbatical.png"
+import andDigital from "../../assets/history/and-digital.png"
+import havasMedia from "../../assets/history/havas-media.png"
+import nomura from  "../../assets/history/nomura.png"
 
 const skillsData = [
   {
     "title": "HTML",
-    "imageSrc": "src/assets/skills/html.png"
+    "imageSrc": html
   },
   {
     "title": "CSS",
-    "imageSrc": "src/assets/skills/css.png"
+    "imageSrc": css
   },
   {
     "title": "React",
-    "imageSrc": "src/assets/skills/react.png"
+    "imageSrc": react
   },
   {
     "title": "Node",
-    "imageSrc": "src/assets/skills/node.png"
+    "imageSrc": node
   },
     {
     "title": "TypeScript",
-    "imageSrc": "src/assets/skills/typescript.png"
+    "imageSrc": typescript
   },
     {
     "title": "JavaScript",
-    "imageSrc": "src/assets/skills/javascript.png"
+    "imageSrc": javascript
   },
   {
     "title": "GraphQL",
-    "imageSrc": "src/assets/skills/graphql.png"
+    "imageSrc": graphql
   },
   {
     "title": "Python",
-    "imageSrc": "src/assets/skills/python.png"
+    "imageSrc": python
   }
 ]
 
-
+const historyData = [
+  {
+    "role": "Career Break",
+    "organisation": "6 Month Sabbatical",
+    "startDate": "Sep 2024",
+    "endDate": "Mar 2025",
+    "experiences": ["Travel", "Personal Development"],
+    "imageSrc": sabbatical
+  },
+  {
+    "role": "Software Engineer",
+    "organisation": "AND Digital",
+    "startDate": "May 2021",
+    "endDate": "Sep 2024",
+    "experiences": ["Experience 1", "Experience 2"],
+    "imageSrc": andDigital
+  },
+  {
+    "role": "Business Intelligence Executive",
+    "organisation": "Havas Media Group",
+    "startDate": "Oct 2019",
+    "endDate": "Dec 2020",
+    "experiences": ["Experience 1", "Experience 2"],
+    "imageSrc": havasMedia
+  },
+  
+   {
+    "role": "Structured Credit Analyst",
+    "organisation": "Nomura",
+    "startDate": "Jun 2017",
+    "endDate": "Jun 2018",
+    "experiences": ["Experience 1", "Experience 2"],
+    "imageSrc": nomura
+  }
+]
 
 const Experience = () => {
   return (
@@ -58,7 +102,7 @@ const Experience = () => {
           })}
         </div>
         <ul className={styles.history}>
-          {history.map((historyItem, id) => {
+          {historyData.map((historyItem, id) => {
             return (
               <li key={id} className={styles.historyItem}>
                 <img
