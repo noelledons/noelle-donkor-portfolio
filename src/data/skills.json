@@ -1,34 +1,34 @@
 [
   {
     "title": "HTML",
-    "imageSrc": "/noelle-donkor-portfolio/assets/skills/html.png"
+    "imageSrc": "assets/skills/html.png"
   },
   {
     "title": "CSS",
-    "imageSrc": "/noelle-donkor-portfolio/assets/skills/css.png"
+    "imageSrc": "assets/skills/css.png"
   },
   {
     "title": "React",
-    "imageSrc": "/noelle-donkor-portfolio/assets/skills/react.png"
+    "imageSrc": "assets/skills/react.png"
   },
   {
     "title": "Node",
-    "imageSrc": "/noelle-donkor-portfolio/assets/skills/node.png"
+    "imageSrc": "assets/skills/node.png"
   },
     {
     "title": "TypeScript",
-    "imageSrc": "/noelle-donkor-portfolio/assets/skills/typescript.png"
+    "imageSrc": "assets/skills/typescript.png"
   },
     {
     "title": "JavaScript",
-    "imageSrc": "/noelle-donkor-portfolio/assets/skills/javascript.png"
+    "imageSrc": "assets/skills/javascript.png"
   },
   {
     "title": "GraphQL",
-    "imageSrc": "/noelle-donkor-portfolio/assets/skills/graphql.png"
+    "imageSrc": "assets/skills/graphql.png"
   },
   {
     "title": "Python",
-    "imageSrc": "/noelle-donkor-portfolio/assets/skills/python.png"
+    "imageSrc": "assets/skills/python.png"
   }
 ]
