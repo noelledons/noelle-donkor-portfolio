@@ -1,7 +1,8 @@
 import styles from "./Experience.module.css"
-
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
+
+const base = import.meta.env.BASE_URL;
 
 const Experience = () => {
   return (
@@ -14,7 +15,7 @@ const Experience = () => {
             return (
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
-                  <img src={skill.imageSrc} alt={skill.title}/>
+                  <img src={`${base}${skill.imageSrc.replace(/^\.\/+/, '')}`} alt={skill.title} />
                 </div>
                 <p> {skill.title}</p>
               </div>
@@ -26,7 +27,7 @@ const Experience = () => {
             return (
               <li key={id} className={styles.historyItem}>
                 <img
-                  src={historyItem.imageSrc}
+                  src={`${base}${historyItem.imageSrc.replace(/^\.\/+/, '')}`}
                   alt={`${historyItem.organistion} Logo`}
                 />
                 <div className={styles.historyItemDetails}>
